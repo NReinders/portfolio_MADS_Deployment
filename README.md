@@ -22,12 +22,3 @@ This website is built automatically using GitHub Pages. The main page you're rea
     * A critical analysis of the ethical implications of AI-driven camouflage.
 
 
-## How to setup your own portfolio
-- fork this repo
-- go to the **settings** tab on top of your github page
-- on the left-hand menu, click on **Pages**
-- under build and deployment, select `deploy from a branch`
-- select main/root and save
-
-After a few minutes you will see the site is published.
-
