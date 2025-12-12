@@ -14,8 +14,8 @@ This website is built automatically using GitHub Pages. The main page you're rea
     * Summary of the third week
 4.  **[Hyperparameter ray](./4-hypertuning-ray/summary.md)**
     * A summary of my findings from hyperparameter tuning
-5.  **[Hackathon Model: Project Cuddlefish](./6-hackathon/project_cuddlefish.md)**
-    * Our award-winning model that predicts the optimal camouflage pattern for a cuttlefish based on its environment.
+5.  **[Hackathon](./6-hackathon/project_text.md)**
+    * Our process of the Hackaton
 6.  **[deployment](./5-deployment/summary.md)**
     * The result of my own deployment
 7.  **[Ethics](./7-ethics/summary.md)**
