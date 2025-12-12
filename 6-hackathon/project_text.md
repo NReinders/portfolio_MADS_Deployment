@@ -1,11 +1,11 @@
 # Project Text - Kadaster
 
 
-# Project Goal and Architectural Strategy
+## Project Goal and Architectural Strategy
 
 The challenge during this hackathon was centered on optimizing the classification of Dutch Cadastre (Kadaster) deed descriptions. Our team opted for an ambitious, Dual-Path architectural strategy involving three interdependent pipelines: a RegEx pipeline, a Neural Network (NN) for bulk classification (my primary focus), and an LLM-Runner for the rare edge cases.
 
-# Deep Dive: Neural Network Optimization
+## Deep Dive: Neural Network Optimization
 
 My role focused on developing and optimizing the core NN pipeline. The process was iterative, emphasizing stability and feature utilization:
 
@@ -37,15 +37,18 @@ RegEx Path Deepening: The RegEx path was expanded to multiple layers with BN, al
 
 A key learning was the severity of the data imbalance. The 'long tail' (labels with a count ≤10) led to rapid overfitting. While we developed the logic in the Trainer to hardcode the removal of this long tail, a technical obstacle in the CLI parameter passing prevented this crucial filter from being executed during the final runs. This failure to implement the necessary data pre-filtering was one of the biggest setbacks.
 
-# Conclusion and Reflection
+## Conclusion and Reflection
 
 Despite the technical setbacks—the inability to finalize the RegEx and LLM integrations, and the issue with data filtering—our optimized NN pipeline achieved a strong F1 micro score of 85-86% on the bulk of the classification tasks.
 
 The day provided an intense and invaluable learning experience. Being fully focused on a single task as a team highlighted the difficulty of managing architectural complexity, external API dependencies, and robust debugging under severe time constraints. While I was disappointed that the full vision was not realized, the process was a significant win, showcasing the technical depth required to transition an ML concept into a deployable solution. The entire experience reinforced the value of modular design and aggressive iteration in machine learning development.
 
 
-# Repo:
+## Repo:
  https://github.com/MaxNollet/mads-2025-hackathon.git
+
+
+
 
 
 [Go back to Homepage](../README.md)
